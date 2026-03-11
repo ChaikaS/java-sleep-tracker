@@ -1,6 +1,5 @@
 package ru.yandex.practicum.sleeptracker;
 
-import ru.yandex.practicum.sleeptracker.exception.EmptySessionsException;
 import ru.yandex.practicum.sleeptracker.function.*;
 import ru.yandex.practicum.sleeptracker.model.SleepAnalysisResult;
 import ru.yandex.practicum.sleeptracker.model.SleepingSession;
