@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class AverageSleepingSessionTest {
+public class AverageSleepingSessionTest {
 
     private final AverageSleepingSession function = new AverageSleepingSession();
 

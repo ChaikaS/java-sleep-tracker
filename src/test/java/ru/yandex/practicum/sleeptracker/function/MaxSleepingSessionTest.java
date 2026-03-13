@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MaxSleepingSessionTest {
+public class MaxSleepingSessionTest {
 
     private final MaxSleepingSession function = new MaxSleepingSession();
 

@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ChronotypeAnalyzerTest {
+public class ChronotypeAnalyzerTest {
 
     private final ChronotypeAnalyzer analyzer = new ChronotypeAnalyzer();
 

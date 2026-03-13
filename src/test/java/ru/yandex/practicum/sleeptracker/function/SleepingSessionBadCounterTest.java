@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SleepingSessionBadCounterTest {
+public class SleepingSessionBadCounterTest {
 
     private final SleepingSessionBadCounter function = new SleepingSessionBadCounter();
 

@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MinSleepingSessionTest {
+public class MinSleepingSessionTest {
 
     private final MinSleepingSession function = new MinSleepingSession();
 

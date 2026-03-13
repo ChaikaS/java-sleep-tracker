@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class SleeplessNightsSessionTest {
+public class SleeplessNightsSessionTest {
 
     private final SleeplessNightsSession function = new SleeplessNightsSession();
 
