@@ -19,9 +19,16 @@ public class SleepTrackerApp {
             new AverageSleepingSession(), new SleepingSessionBadCounter(), new SleeplessNightsSession(), new ChronotypeAnalyzer());
 
     public static void main(String[] args) {
+        if (args.length == 0) {
+            System.out.println("Необходимо добавить аргументы командной строки");
+            return;
+        }
+
+        String filePath = args[0];
+
         try {
             SleepTrackerLoader loader = new SleepTrackerLoader();
-            List<SleepingSession> sessions = loader.readFile(loader.getFile(SESSION_FILE_NAME));
+            List<SleepingSession> sessions = loader.readFile(loader.getFile(filePath));
 
             SleepTrackerAnalyzeSessions sessionAnalyser = new SleepTrackerAnalyzeSessions();
 
